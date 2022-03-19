@@ -22,8 +22,12 @@ An offline version of the data is available in the Data.txt file which collected
  or you can simply download it as `zip` file using the green button above. 
  
  When it is downloaded or cloned:  
- 1- open the terminal and go to the directory where the files are downloaded.  
- 2- run this command: 
+ 1- Open the terminal and go to the directory where the files are downloaded.  
+ 2- Run this command to change permissions:  
+  ```ruby
+  chmod +x wordfreq.sh 
+  ```
+ 3- Run this command to execute: 
  
   ```ruby
   ./wordfreq.sh Data.txt 
